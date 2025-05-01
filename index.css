@@ -50,7 +50,7 @@ header{
   cursor: pointer;
   display: none;
 }
-.navbar .action-btn{
+.action-btn{
   background-color: orange;
   color: #fff;
   padding: 0.5rem 1rem;
@@ -58,4 +58,39 @@ header{
   outline: none;
   border-radius: 20px;
   font-size: 0.8rem;
+  transition: scale 0.3 ease;
+}
+.action-btn:hover{
+  scale: 1.05;
+  color: white;
+}
+.dropdown_menu{
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  width: 300px;
+  height: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: height 0.3s ease;
+
+}
+.dropdown_menu li{
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.dropdown_menu .action-btn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown_menu .open{
+  height: 240px;
 }
