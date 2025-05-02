@@ -1,4 +1,3 @@
-// index.js
 const toggleBtn = document.querySelector('.toogle-btn');
 const dropdownMenu = document.querySelector('.dropdown_menu');
 const togglebtnicon=document.querySelector('.toogle-btn i');

@@ -100,7 +100,6 @@ opdown_menu li{
   justify-content: center;
 }
 .dropdown_menu .action-btn{
-  width:100%;
   display: flex;
   justify-content: center;
 }
